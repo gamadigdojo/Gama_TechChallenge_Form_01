@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+#myForm{
+margin-top: 5rem;
+padding: 4rem 4rem 4rem 4rem;
+border: 1px solid black;
+border-radius: 20px;
+background-color: antiquewhite;
+}
+
+.title{
+margin-bottom: 3rem;
+color: tan;
+font-size: 32px;
+}
+
+.label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: tan;
+}
+
+
+input[type=text]{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    width: 300px;
+    padding: 7px;
+    color: tan;
+}
+
+.gender{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    width: 300px;
+    padding: 7px;
+}
+
+.error{
+    margin-bottom: 2rem;
+}
+
+
+.error {
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+button{
+background-color: tan;
+padding: 10px;
+width: 140px;
+border: none;
+border-radius: 20px;
+}
+
+button[type=submit]:hover{
+    background-color: white;
+    color: #606988;
+    cursor: pointer;
+}

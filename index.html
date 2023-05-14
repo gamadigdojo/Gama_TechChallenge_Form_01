@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+
+
+    <form id="myForm">
+        <h1 class="title">Input Data Validation</h1>
+        <div>
+          <h1 class="label">Nama:</h1>
+          <input type="text" id="name" name="name" placeholder="Masukkan Nama">
+          <div id="nameError" class="error"></div>
+        </div>
+        <div>
+            <h1 class="label">Email:</h1>
+          <input type="text" id="email" name="email" placeholder="Masukkan Email">
+          <div id="emailError" class="error"></div>
+        </div>
+        <div>
+        <h1 class="label">Jenis Kelamin:</h1>
+          <input type="radio" id="male" name="gender" value="male">
+          <label class="gender" for="male">Laki-laki</label>
+          <input type="radio" id="female" name="gender" value="female">
+          <label class="gender" for="female">Perempuan</label>
+          <div id="genderError" class="error"></div>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+      
+</body>
+<script src="script.js"></script>
+</html>
